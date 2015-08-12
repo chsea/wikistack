@@ -6,12 +6,14 @@
   <form method="POST" action="/wiki/">
 
     <div class="form-group">
+      <label for="title">Title:</label>
+      <input name="title" type="text" class="form-control">
       <label for="name">Name:</label>
       <input name="name" type="text" class="form-control">
       <label for="email">Email:</label>
       <input name="email" type="text" class="form-control">
       <label for="content">Content:</label>
-      <textarea name='content'></textarea>
+      <textarea class="form-control" name='content'></textarea>
       <label for="tags">Tags:</label>
       <input name="tags" type="text" class="form-control"/>
     </div>
